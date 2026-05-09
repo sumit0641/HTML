@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>India Map Clickable</title>
+
+<style>
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+svg {
+    width: 700px;
+}
+
+/* Points */
+.point {
+    fill: red;
+    cursor: pointer;
+}
+
+.point:hover {
+    fill: yellow;
+}
+
+/* Grid */
+.grid line {
+    stroke: #999;
+    stroke-width: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<h2>India State Clickable Map</h2>
+<h2>Name: Sumit Kumar Yadav </h2>
+<h2> Admission Number: 23SCSE1010641 </h2>
+<p>Click on states</p>
+
+<svg viewBox="0 0 700 800">
+
+<!-- MAP INSIDE SVG -->
+<image href="https://upload.wikimedia.org/wikipedia/commons/7/74/India-map-en.svg"
+       x="0" y="0" width="700" height="800"/>
+
+<!-- GRID -->
+<g class="grid">
+    <line x1="100" y1="0" x2="100" y2="800"/>
+    <line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="300" y1="0" x2="300" y2="800"/>
+    <line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="500" y1="0" x2="500" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+
+    <line x1="0" y1="100" x2="700" y2="100"/>
+    <line x1="0" y1="200" x2="700" y2="200"/>
+    <line x1="0" y1="300" x2="700" y2="300"/>
+    <line x1="0" y1="400" x2="700" y2="400"/>
+    <line x1="0" y1="500" x2="700" y2="500"/>
+    <line x1="0" y1="600" x2="700" y2="600"/>
+    <line x1="0" y1="700" x2="700" y2="700"/>
+</g>
+
+<!-- CLICKABLE POINTS (ALL MAJOR STATES) -->
+
+<a href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)" target="_blank">
+<circle class="point" cx="300" cy="120" r="5"><title>Jammu & Kashmir</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Punjab,_India" target="_blank">
+<circle class="point" cx="260" cy="180" r="5"><title>Punjab</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Haryana" target="_blank">
+<circle class="point" cx="300" cy="200" r="5"><title>Haryana</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Rajasthan" target="_blank">
+<circle class="point" cx="220" cy="260" r="5"><title>Rajasthan</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Uttar_Pradesh" target="_blank">
+<circle class="point" cx="380" cy="260" r="5"><title>Uttar Pradesh</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Bihar" target="_blank">
+<circle class="point" cx="460" cy="270" r="5"><title>Bihar</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/West_Bengal" target="_blank">
+<circle class="point" cx="560" cy="320" r="5"><title>West Bengal</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Assam" target="_blank">
+<circle class="point" cx="630" cy="260" r="5"><title>Assam</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Madhya_Pradesh" target="_blank">
+<circle class="point" cx="340" cy="350" r="5"><title>Madhya Pradesh</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Gujarat" target="_blank">
+<circle class="point" cx="240" cy="400" r="5"><title>Gujarat</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Maharashtra" target="_blank">
+<circle class="point" cx="330" cy="450" r="5"><title>Maharashtra</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Odisha" target="_blank">
+<circle class="point" cx="470" cy="400" r="5"><title>Odisha</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Karnataka" target="_blank">
+<circle class="point" cx="340" cy="580" r="5"><title>Karnataka</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Telangana" target="_blank">
+<circle class="point" cx="380" cy="520" r="5"><title>Telangana</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Andhra_Pradesh" target="_blank">
+<circle class="point" cx="420" cy="580" r="5"><title>Andhra Pradesh</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Tamil_Nadu" target="_blank">
+<circle class="point" cx="380" cy="700" r="5"><title>Tamil Nadu</title></circle>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Kerala" target="_blank">
+<circle class="point" cx="310" cy="680" r="5"><title>Kerala</title></circle>
+</a>
+
+</svg>
+
+</body>
+</html>
